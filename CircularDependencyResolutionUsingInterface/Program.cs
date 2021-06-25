@@ -2,12 +2,30 @@
 
 namespace InterfaceSolution
 {
-    interface IConsumer
+    public interface IConsumer
     {
-        public void CallFriends();
+        void CallFriends();
     }
 
-    class A
+    public class A : IConsumer
+    {
+        public B b;
+
+        public void Run()
+        {
+            Console.WriteLine("Operation ran.");
+
+            b = new B();
+            b.MakeCoffee(this);
+        }
+
+        public void CallFriends()
+        {
+            Console.WriteLine("Friends called.");
+        }
+    }
+
+    public class B
     {
         public void MakeCoffee(IConsumer me)
         {
@@ -15,19 +33,14 @@ namespace InterfaceSolution
         }
     }
 
-    class B : IConsumer
-    {
-        public void CallFriends()
-        {
-            Console.WriteLine("Friends called.");
-        }
-    }
-
     class MainClass
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            A a = new A();
+            B b = new B();
+
+            a.Run();
         }
     }
 }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSolution", "CircularDependencyResolutionUsingInterface\InterfaceSolution.csproj", "{1AB96C5B-E682-40F9-AE38-2BADFE90938F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AB96C5B-E682-40F9-AE38-2BADFE90938F}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{1AB96C5B-E682-40F9-AE38-2BADFE90938F}.Debug|anycpu.Build.0 = Debug|anycpu
+		{1AB96C5B-E682-40F9-AE38-2BADFE90938F}.Release|anycpu.ActiveCfg = Release|anycpu
+		{1AB96C5B-E682-40F9-AE38-2BADFE90938F}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {591854D3-DD1F-46AA-B912-2B5175C9FEA5}
+	EndGlobalSection
+EndGlobal

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.810.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSolution", "CircularDependencyResolutionUsingInterface\InterfaceSolution.csproj", "{1AB96C5B-E682-40F9-AE38-2BADFE90938F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSolution", "EventSolution\EventSolution.csproj", "{7A271FBD-FA38-48A4-9424-7F9DD3608B77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -15,6 +17,10 @@ Global
 		{1AB96C5B-E682-40F9-AE38-2BADFE90938F}.Debug|anycpu.Build.0 = Debug|anycpu
 		{1AB96C5B-E682-40F9-AE38-2BADFE90938F}.Release|anycpu.ActiveCfg = Release|anycpu
 		{1AB96C5B-E682-40F9-AE38-2BADFE90938F}.Release|anycpu.Build.0 = Release|anycpu
+		{7A271FBD-FA38-48A4-9424-7F9DD3608B77}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{7A271FBD-FA38-48A4-9424-7F9DD3608B77}.Debug|anycpu.Build.0 = Debug|anycpu
+		{7A271FBD-FA38-48A4-9424-7F9DD3608B77}.Release|anycpu.ActiveCfg = Release|anycpu
+		{7A271FBD-FA38-48A4-9424-7F9DD3608B77}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

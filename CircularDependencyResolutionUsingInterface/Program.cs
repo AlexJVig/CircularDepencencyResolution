@@ -29,7 +29,13 @@ namespace InterfaceSolution
     {
         public void MakeCoffee(IConsumer me)
         {
+            WaterBoiled();
             me.CallFriends();
+        }
+
+        protected void WaterBoiled()
+        {
+            Console.WriteLine("Water boiled.");
         }
     }
 
